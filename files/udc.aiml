@@ -10,4 +10,8 @@ get guidance on potential careers that use a Computer Science degree.
 To get started, please choose one of the options below.</template>
   </category>
 
+<category>
+    <pattern></pattern>
+    <template></template>
+</category>
 </aiml>
