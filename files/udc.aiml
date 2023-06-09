@@ -1,28 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-  <category>
-	<pattern>Hello</pattern>
-	<template>Hello! I am the student career bot for the Department of Comuter Science.
-	The purpose of this bot is to help you, the student,
-	get guidance on potential careers that use a Computer Science degree.
-	To get started, please choose one of the options below:</template>
-	<button>
-    	<text>Learn about 5 Careers using a Computer Science Degree</text>
-	</button>
-	<button>
-    	<text>Help me choose a career</text>
-    	<postback>Find a Career</postback>
-	</button>
-  </category>
-  
-  <category>
-      <pattern>Example Careers</pattern>
-      <template>Below are some examples of careers that utilize a computer science degree.</template>
+
+<category>
+    <pattern>Hello</pattern>
+    <template>Welcome! I am the Student Career Bot for the Department of Computer Science. 
+    The purpose of this bot is to help you get guidance on potential careers that use a Computer Science degree. 
+    To get started, please choose one of the options below:
         <button>
-            <text>Software Developers</text>
-            <postback>software developer</postback>
+            <text>Learn about example careers</text>
+            <postback>example careers</postback>
         </button>
         <button>
+            <text>Help me find a career</text>
+            <postback>find career</postback>
+        </button></template>
+        </category>
+        <category>
+            <pattern>Example Careers</pattern>
+            <template>Below are some examples of careers that utilize a computer science degree.
+        <button>
+            <text>Software Developer</text>
+            <postback>software developer</postback>
+        </button><button>
             <text>Information Security Analyst</text>
             <postback>information security analyst</postback>
         </button>
@@ -38,11 +37,12 @@
             <text>Computer Hardware Engineer</text>
             <postback>computer hardware engineer</postback>
         </button>
-  </category>
-  
-  <category>
-      <pattern>Find a Career</pattern>
-      <template></template>
-  </category>
+    </template>
+</category>
+
+<category>
+    <pattern>Find a Career</pattern>
+    <template>I will ask you a series of questions in order to gauge your interests and suggest careers that match based off of your response.</template>
+</category>
 
 </aiml>
