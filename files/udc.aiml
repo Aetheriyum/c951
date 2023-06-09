@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
   <category>
-    <pattern>*</pattern>
-    <template>I have no answer for that.</template>
+    <pattern>Hello</pattern>
+    <template>Hello! I am the student career bot for the Department of Computer Science.
+
+	The purpose of this bot is to help you, the student,
+get guidance on potential careers that use a Computer Science degree.
+
+To get started, please choose one of the options below.</template>
   </category>
 
 </aiml>
