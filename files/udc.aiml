@@ -42,7 +42,55 @@
 
 <category>
     <pattern>Find a Career</pattern>
-    <template>I will ask you a series of questions in order to gauge your interests and suggest careers that match based off of your response.</template>
+    <template>I will ask you a series of questions in order to gauge your interests and suggest careers that match based off of your response.
+        <br></br><br></br>
+        Do you prefer designing websites that you can visually see compared to working on code that you can't see?
+        <button>
+            <text>Yes</text>
+            <postback>web dev question</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>programming questions</postback>
+        </button>
+    </template>
 </category>
 
+<category>
+    <pattern>Yes or no</pattern>
+    <template>Do you have a lot of experience making web applications or working with API's?
+<button>
+    <text>Yes</text>
+    <postback>web dev question</postback>
+</button><button>
+    <text>No</text>
+    <postback>Cyber sec question</postback>
+</button></template>
+</category>
+<category>
+    <pattern>Yes or no</pattern>
+    <template>Do you like the idea of protecting a system or network from attacks?
+<button>
+    <text>Yes</text>
+    <postback>Programming question 2</postback>
+</button><button>
+    <text>No</text>
+    <postback>database question</postback>
+</button></template>
+</category>
+<category>
+    <pattern>Yes or no</pattern>
+    <template>Do you have expereince working on low-level applications or devices, or have an interest in them?
+<button>
+    <text>Yes</text>
+    <postback>Insert Postback</postback>
+</button><button>
+    <text>No</text>
+    <postback>Insert Postback</postback>
+</button></template>
+</category>
+<category>
+    <pattern>Yes or no</pattern>
+    <template>Edit bot response</template>
+</category>
 </aiml>
