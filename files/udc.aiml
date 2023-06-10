@@ -59,38 +59,47 @@
 <category>
     <pattern>Yes or no</pattern>
     <template>Do you have a lot of experience making web applications or working with API's?
-<button>
-    <text>Yes</text>
-    <postback>web dev question</postback>
-</button><button>
-    <text>No</text>
-    <postback>Cyber sec question</postback>
-</button></template>
-</category>
+        <button>
+            <text>Yes</text>
+            <postback>web dev question</postback>
+        </button><button>
+            <text>No</text>
+            <postback>Cyber sec question</postback>
+        </button></template>
+        </category>
+        <category>
+            <pattern>Yes or no</pattern>
+            <template>Do you like the idea of protecting a system or network from attacks?
+        <button>
+            <text>Yes</text>
+            <postback>Programming question 2</postback>
+        </button><button>
+            <text>No</text>
+            <postback>database question</postback>
+        </button></template>
+        </category>
+        <category>
+            <pattern>Yes or no</pattern>
+            <template>Do you have expereince working on low-level applications or devices, or have an interest in them?
+        <button>
+            <text>Yes</text>
+            <postback>Insert Postback</postback>
+        </button><button>
+            <text>No</text>
+            <postback>Insert Postback</postback>
+        </button></template>
+    </category>
+    
+
 <category>
     <pattern>Yes or no</pattern>
-    <template>Do you like the idea of protecting a system or network from attacks?
+    <template>Do you enjoy working with large data sets and analyzing them?
 <button>
     <text>Yes</text>
-    <postback>Programming question 2</postback>
+    <postback>data scientist</postback>
 </button><button>
     <text>No</text>
-    <postback>database question</postback>
-</button></template>
-</category>
-<category>
-    <pattern>Yes or no</pattern>
-    <template>Do you have expereince working on low-level applications or devices, or have an interest in them?
-<button>
-    <text>Yes</text>
     <postback>Insert Postback</postback>
-</button><button>
-    <text>No</text>
-    <postback>Insert Postback</postback>
 </button></template>
-</category>
-<category>
-    <pattern>Yes or no</pattern>
-    <template>Edit bot response</template>
 </category>
 </aiml>
