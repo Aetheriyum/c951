@@ -12,4 +12,16 @@
 
 </template>
 </category>
+<category>
+    <pattern>Web Developer Question</pattern>
+    <template>You should consider becoming a Web Developer!
+    <br></br><br></br>
+        A Web Developer creates, designs, and tests websites and interface layouts, functions, and navigation for usability. 
+    <br></br><br></br>
+<link>
+    <text>Click here to learn more about the career outlook for a Web Developer.</text>
+    <url>https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm</url>
+</link>
+</template>
+</category>
 </aiml>

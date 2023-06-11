@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-	<!-- insert your AIML categories here -->
 <category>
     <pattern>Cybersecurity Analyst</pattern>
     <template>A cybersecurity analyst is tasked with "planning and carrying out security measures to protect an organization's computer networks and systems." There are many fields within cybersecurity as a whole, and an analyst is just one position. 
-<br></br><br></br>
-<link>
-    <text>Click here to learn more about the career outlook for a cybersecurity analyst.</text>
-    <url>https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm</url>
-</link></template>
+        <br></br><br></br>
+        <link>
+            <text>Click here to learn more about the career outlook for a cybersecurity analyst.</text>
+            <url>https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm</url>
+        </link>
+    </template>
+</category>
+<category>
+    <pattern>Cybersecurity Analyst Question</pattern>
+    <template>You should consider becoming a Cybersecurity Analyst!
+        <br></br><br></br>
+            A cybersecurity analyst is tasked with "planning and carrying out security measures to protect an organization's computer networks and systems." There are many fields within cybersecurity as a whole, and an analyst is just one position.
+        <br></br><br></br>
+        <link>
+            <text>Click here to learn more about the career outlook for a cybersecurity analyst.</text>
+            <url>https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm</url>
+        </link>
+    </template>
 </category>
 </aiml>

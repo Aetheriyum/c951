@@ -12,4 +12,16 @@
 
 </template>
 </category>
+<category>
+    <pattern>Data Scientist Question</pattern>
+    <template>You should consider becoming a Data Scientist!
+    <br></br><br></br>
+        A data scientist "uses analytical tools and techniques to extract meaningful insights from data." This career has a lot of focus on math and statistics in addition to computer science. 
+    <br></br><br></br>
+<link>
+    <text>Click here to learn more about the career outlook for a Data Scientist.</text>
+    <url>https://www.bls.gov/ooh/math/data-scientists.htm</url>
+</link>
+</template>
+</category>
 </aiml>

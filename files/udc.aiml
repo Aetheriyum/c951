@@ -79,7 +79,7 @@
         </button></template>
         </category>
         <category>
-            <pattern>Information Security Question</pattern>
+            <pattern>Cybersecurity Question</pattern>
             <template>Do you have expereince working on low-level applications or devices, or have an interest in them?
         <button>
             <text>Yes</text>
