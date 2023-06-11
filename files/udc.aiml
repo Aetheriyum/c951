@@ -57,7 +57,7 @@
 </category>
 
 <category>
-    <pattern>Yes or no</pattern>
+    <pattern>Web Development Question</pattern>
     <template>Do you have a lot of experience making web applications or working with API's?
         <button>
             <text>Yes</text>
@@ -68,7 +68,7 @@
         </button></template>
         </category>
         <category>
-            <pattern>Yes or no</pattern>
+            <pattern>Software Developer Question</pattern>
             <template>Do you like the idea of protecting a system or network from attacks?
         <button>
             <text>Yes</text>
@@ -79,7 +79,7 @@
         </button></template>
         </category>
         <category>
-            <pattern>Yes or no</pattern>
+            <pattern>Information Security Question</pattern>
             <template>Do you have expereince working on low-level applications or devices, or have an interest in them?
         <button>
             <text>Yes</text>
@@ -92,7 +92,7 @@
     
 
 <category>
-    <pattern>Yes or no</pattern>
+    <pattern>Computer Hardware Question</pattern>
     <template>Do you enjoy working with large data sets and analyzing them?
 <button>
     <text>Yes</text>

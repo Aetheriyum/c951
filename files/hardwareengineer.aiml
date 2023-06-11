@@ -3,6 +3,11 @@
 	<!-- insert your AIML categories here -->
 <category>
     <pattern>Computer Hardware Engineer</pattern>
-    <template>Edit bot response</template>
+    <template>A Computer Hardware Engineer is responsible for the "research, design, development, and testing of computer systems and components."
+<br></br><br></br>
+<link>
+    <text>Click here to learn more about the career outlook for a Computer Hardware Engineer.</text>
+    <url>https://www.bls.gov/ooh/architecture-and-engineering/computer-hardware-engineers.htm</url>
+</link></template>
 </category>
 </aiml>
