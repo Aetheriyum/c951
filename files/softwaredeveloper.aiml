@@ -11,7 +11,7 @@
         </template>
     </category>
     <category>
-        <pattern>Software Developer Question</pattern>
+        <pattern>Software Development</pattern>
         <template>You should consider becoming a Software Developer!
         <br></br><br></br>
             A software developer is responsible for creating and maintaining software programs on both computers and mobile devices. There are many steps to the software process, such as designing, installing, and testing. 
@@ -20,6 +20,13 @@
                 <text>Click here to learn more about the career outlook for Software Developers.</text>
                 <url>https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm#tab-1</url>
             </link>
+            <button>
+                <text>Learn about example careers</text>
+                <postback>example careers</postback>
+            </button>            <button>
+                <text>Help me find a career</text>
+                <postback>find a career</postback>
+            </button>
         </template>
     </category>
 </aiml>

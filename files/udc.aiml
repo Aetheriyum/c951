@@ -9,10 +9,9 @@
         <button>
             <text>Learn about example careers</text>
             <postback>example careers</postback>
-        </button>
-        <button>
+        </button>        <button>
             <text>Help me find a career</text>
-            <postback>find career</postback>
+            <postback>find a career</postback>
         </button></template>
         </category>
         <category>
@@ -22,10 +21,9 @@
             <text>Software Developer</text>
             <postback>software developer</postback>
         </button><button>
-            <text>Information Security Analyst</text>
-            <postback>information security analyst</postback>
-        </button>
-        <button>
+            <text>Cybersecurity Analyst</text>
+            <postback>cybersecurity analyst</postback>
+        </button>        <button>
             <text>Data Scientist</text>
             <postback>data scientist</postback>
         </button>
@@ -47,11 +45,10 @@
         Do you prefer designing websites that you can visually see compared to working on code that you can't see?
         <button>
             <text>Yes</text>
-            <postback>web dev question</postback>
-        </button>
-        <button>
+            <postback>web development question</postback>
+        </button>        <button>
             <text>No</text>
-            <postback>programming questions</postback>
+            <postback>cybersecurity question</postback>
         </button>
     </template>
 </category>
@@ -61,45 +58,61 @@
     <template>Do you have a lot of experience making web applications or working with API's?
         <button>
             <text>Yes</text>
-            <postback>web dev question</postback>
+            <postback>web developer question</postback>
         </button><button>
             <text>No</text>
-            <postback>Cyber sec question</postback>
-        </button></template>
-        </category>
-        <category>
-            <pattern>Software Developer Question</pattern>
-            <template>Do you like the idea of protecting a system or network from attacks?
-        <button>
-            <text>Yes</text>
-            <postback>Programming question 2</postback>
-        </button><button>
-            <text>No</text>
-            <postback>database question</postback>
+            <postback>software developer question</postback>
         </button></template>
         </category>
         <category>
             <pattern>Cybersecurity Question</pattern>
-            <template>Do you have expereince working on low-level applications or devices, or have an interest in them?
+            <template>Do you like the idea of protecting a system or network from attacks?
         <button>
             <text>Yes</text>
-            <postback>Insert Postback</postback>
+            <postback>cybersecurity analyst question</postback>
         </button><button>
             <text>No</text>
-            <postback>Insert Postback</postback>
+            <postback>computer hardware question</postback>
+        </button></template>
+        </category>
+        <category>
+            <pattern>Computer Hardware Question</pattern>
+            <template>Do you have experience working on low-level applications or devices, or have an interest in them?
+        <button>
+            <text>Yes</text>
+            <postback>computer hardware engineer question</postback>
+        </button><button>
+            <text>No</text>
+            <postback>data scientist question</postback>
         </button></template>
     </category>
     
 
 <category>
-    <pattern>Computer Hardware Question</pattern>
+    <pattern>Data Scientist Question</pattern>
     <template>Do you enjoy working with large data sets and analyzing them?
 <button>
     <text>Yes</text>
-    <postback>data scientist</postback>
+    <postback>data sciences</postback>
 </button><button>
     <text>No</text>
-    <postback>Insert Postback</postback>
+    <postback>no suggested job</postback>
+</button></template>
+</category>
+
+<category>
+    <pattern>No suggested Job</pattern>
+    <template>Sorry, but there are no options available based on your responses.</template>
+</category>
+<category>
+    <pattern>Software Developer Question</pattern>
+    <template>Do you enjoy taking part in the design, development, installation, testing, and maintaining of software?
+<button>
+    <text>Yes</text>
+    <postback>software development</postback>
+</button><button>
+    <text>No</text>
+    <postback>cybersecurity question</postback>
 </button></template>
 </category>
 </aiml>
